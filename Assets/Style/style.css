@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: rgb(220, 220, 220);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+.form-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Logo-tb {
+    font-size: 1.5rem;
+    margin: 15px 0px 25px 0px;
+}
+
+.comp-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 45px 0px 0px;
+}
+
+.comp-form label {
+    margin-left: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.comp-form input {
+    border: none;
+    width: 250px;
+    padding: 10px 0;
+    border-bottom: 1px solid #000000;
+}
+
+.tebol {
+    margin-bottom: 15px;
+}
+
+.tebol table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+.tebol td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+.title-tb {
+    font-weight: 600;
+    background-color: rgb(187, 187, 187);
+}
+
+.btn-submit {
+    width: 130px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.result-paragrafo, .error-paragrafo {
+    background-color: #0af20e7c;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    width: 300px;
+    margin-top: 20px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.error-paragrafo {
+    background-color: #f632327c;
+}

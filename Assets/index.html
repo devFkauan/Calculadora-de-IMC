@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="Logo-tb">Calculadora de imc</h1>
+
+        <div class="tebol">
+            <table>
+                <tr>
+                    <td class="title-tb">Imc</td>
+                    <td class="title-tb">Classificação</td>
+                </tr>
+                <tr>
+                    <td>Menor que 18,5</td>
+                    <td>Abaixo do peso normal</td>
+                </tr>
+                <tr>
+                    <td>18,5 a 24,9</td>
+                    <td>Peso normal</td>
+                </tr>
+                <tr>
+                    <td>25,0 a 29,9</td>
+                    <td>Excesso de peso</td>
+                </tr>
+                <tr>
+                    <td>30,0 a 34,9</td>
+                    <td> Excesso de peso I</td>
+                </tr>
+                <tr>
+                    <td>35,0 a 39,9</td>
+                    <td>Excesso de peso II</td>
+                </tr>
+                <tr>
+                    <td> Maior ou igual 40</td>
+                    <td>Excesso de peso III</td>
+                </tr>
+            </table>
+        </div>
+
+        <form action="" method="post" class="form-page">
+
+            <div class="comp-form">
+                <label for="input-peso">Peso (kg)</label>
+                <input type="text" placeholder="Ex: 79.9" id="input-peso">
+            </div>
+
+
+            <div class="comp-form">
+                <label for="input-altura">Altura</label>
+                <input type="text" placeholder="Ex: 1.75" id="input-altura">
+            </div>
+
+            <button type="submit" class="btn-submit">Calcular</button>
+        </form>
+
+        <div class="result"></div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
