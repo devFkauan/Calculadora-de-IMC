@@ -1,0 +1,18 @@
+:root {
+    --primary-color-header: #6E934E;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.content-img {
+    width: 125px;
+    margin-top: 15px;
+}
+
+.content-img img{
+    width: 100%;
+}
